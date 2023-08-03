@@ -1,0 +1,123 @@
+.section {
+  margin-top: 100px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.section.dark {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 50px;
+  background-color: var(--text-60758858);
+  color: var(--body-00fcd25f);
+}
+
+.section.dark.footer {
+  border-radius: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.mw-800 {
+  max-width: 800px;
+}
+
+.grid_cards {
+  align-items: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .grid_cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid_cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-radius: 25px;
+
+  background-color: var(--contrastOnBody-2ec0cb34);
+
+  transition: color 200ms ease,background-color 200ms ease;
+}
+
+.card:hover {
+  background-color: var(--text-60758858);
+  color: var(--body-00fcd25f);
+}
+
+.card.spaced {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon.mb-20 {
+  margin-bottom: 20px;
+}
+
+.h3 {
+  margin-top: 0px;
+  font-size: 25px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.p {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.p.mb-0 {
+  margin-bottom: 0px;
+}
+
+.p.mb-40 {
+  margin-bottom: 40px;
+}
+
+#w-node-_1f2592ab-224e-dd95-c9ca-b937c001af0c-c001af09 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_1f2592ab-224e-dd95-c9ca-b937c001af12-c001af09 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_1f2592ab-224e-dd95-c9ca-b937c001af18-c001af09 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}

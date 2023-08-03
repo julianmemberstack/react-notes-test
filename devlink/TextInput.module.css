@@ -1,0 +1,24 @@
+.input-wrap {
+  margin-bottom: 20px;
+}
+
+.input {
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border: 1px solid var(--body-00fcd25f);
+  border-radius: 10px;
+
+  background-color: var(--body-00fcd25f);
+}
+
+.input:focus-visible {
+  border-color: var(--main-9997ce6c);
+}
+
+.input.textarea {
+  height: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
